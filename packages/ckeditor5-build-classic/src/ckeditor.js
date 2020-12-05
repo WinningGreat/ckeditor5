@@ -32,6 +32,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
+import Font from '@ckeditor/ckeditor5-font/src/font';
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -61,7 +62,8 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 	Alignment,
 	Mention,
-	SimpleUploadAdapter
+	SimpleUploadAdapter,
+	Font
 ];
 
 // Editor configuration.
